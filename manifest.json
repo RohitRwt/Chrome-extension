@@ -6,4 +6,5 @@
         "default_popup":"cr.html",
         "default_icon":"dollar-sign.png"
     }
+    ,"permissions" :["tabs"]
 }

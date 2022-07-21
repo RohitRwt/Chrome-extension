@@ -14,10 +14,29 @@
   background-color: green;
   text-align: center;
   padding: 10px 20px;
-
   color: white;
+
   font-weight: bold;
   border: none;
+}
+#tab-el{
+  background-color: green;
+  text-align: center;
+  padding: 10px 20px;
+  color: white;
+
+  font-weight: bold;
+  border: none;
+}
+#del-el{
+  color: green;
+  background-color: white;
+  margin-top:2px;
+  text-align: center;
+  padding: 9px 20px;
+
+  font-weight: bold;
+  border: 1px solid green;
 }
 
 body {
