@@ -16,7 +16,7 @@ if (leadsfromlocalstorage) {
 }
 savetab.addEventListener("click",function(){
     chrome.tabs.query({active:true,currentWindow:true},function(tabs){
-        myleads.push(tab[0].url)
+        myleads.push(tabs[0].url)
     localStorage.setItem("myleads",JSON.stringify(myleads))
     render(myleads)
     })
