@@ -3,7 +3,7 @@
     "version":"1.0",
     "name":"Lead tracker",
     "action": {
-        "default_popup":"index.html",
+        "default_popup":"cr.html",
         "default_icon":"dollar-sign.png"
     }
 }
